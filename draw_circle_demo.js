@@ -23,3 +23,6 @@ console.log(y(77), x(13330), r(1380000000))
 
 //Append circle with attribute values for radius, fill color, center x and center y of circle:
 svg.append('circle').attr('r', r(1380000000)).attr('fill','red').attr('cx', x(13330)).attr('cy', y(77));
+
+//change the logo or source in the element
+d3.select('.navbar').attr('img', 'white.png')
