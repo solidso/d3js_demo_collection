@@ -2,6 +2,7 @@
 d3.js reference document 
 
 Data Visualization Resources
+
 http://www.thefunctionalart.com/
 
 http://visualisingdata.com/
