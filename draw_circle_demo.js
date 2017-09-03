@@ -18,11 +18,16 @@ var r=d3.scale.sqrt().domain([52707, 1380000000]).range([10, 50]);
 
 //Check scaling with console.log by plugging in life expectancy for China in y 
 //variable, and annual income per person for China in x variable, and population for China in r variable
-console.log(y(77), x(13330), r(1380000000))
-
+console.log(y(77), x(13330), r(1380000000);
 
 //Append circle with attribute values for radius, fill color, center x and center y of circle:
 svg.append('circle').attr('r', r(1380000000)).attr('fill','red').attr('cx', x(13330)).attr('cy', y(77));
 
 //change the logo or source in the element
-d3.select('.navbar').attr('img', 'white.png')
+
+d3.selectAll('.navbar')
+//nested selection
+d3.select(h1.main)
+var partent=d3.select('#header-logo'); //select parent tage
+parent.select('img').attr('src', './assets/white.png').arrt('alt','udacity'); 
+//select child tag and change the source of the img element
