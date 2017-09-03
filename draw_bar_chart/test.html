@@ -19,26 +19,32 @@
 
 var data = [4, 8, 15, 16, 23, 42];
 
+//define constants
 var width = 420,
     barHeight = 20;
 
+//x-axis scale
 var x = d3.scale.linear()
     .domain([0, d3.max(data)])
     .range([0, width]);
 
+//set width of svg
 var chart = d3.select(".chart")
     .attr("width", width)
-    .attr("height", barHeight * data.length);
+    .attr("height", barHeight * data.length); //set chart height
 
+//bind the data
 var bar = chart.selectAll("g")
     .data(data)
   .enter().append("g")
     .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
 
+//add rectangle of every datapoint
 bar.append("rect")
     .attr("width", x)
     .attr("height", barHeight - 1);
 
+//add labels to reacts
 bar.append("text")
     .attr("x", function(d) { return x(d) - 3; })
     .attr("y", barHeight / 2)
