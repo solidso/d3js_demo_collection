@@ -1,0 +1,152 @@
+[
+  {
+    "year": "2015 year",
+    "percent": 66.2,
+    "type": "White"
+  },
+  {
+    "year": "2010 year",
+    "percent": 67.1,
+    "type": "White"
+  },
+  {
+    "year": "2005 year",
+    "percent": 67.3,
+    "type": "White"
+  },
+  {
+    "year": "2000 year",
+    "percent": 68.5,
+    "type": "White"
+  },
+  {
+    "year": "1995 year",
+    "percent": 67.1,
+    "type": "White"
+  },
+  {
+    "year": "1990 year",
+    "percent": 66.5,
+    "type": "White"
+  },
+  {
+    "year": "2015 year",
+    "percent": 25,
+    "type": "Black"
+  },
+  {
+    "year": "2010 year",
+    "percent": 25,
+    "type": "Black"
+  },
+  {
+    "year": "2005 year",
+    "percent": 25.8,
+    "type": "Black"
+  },
+  {
+    "year": "2000 year",
+    "percent": 25.3,
+    "type": "Black"
+  },
+  {
+    "year": "1995 year",
+    "percent": 27.1,
+    "type": "Black"
+  },
+  {
+    "year": "1990 year",
+    "percent": 29.3,
+    "type": "Black"
+  },
+  {
+    "year": "2015 year",
+    "percent": 41.2,
+    "type": "White not Hispanic"
+  },
+  {
+    "year": "2010 year",
+    "percent": 41.5,
+    "type": "White not Hispanic"
+  },
+  {
+    "year": "2005 year",
+    "percent": 43.9,
+    "type": "White not Hispanic"
+  },
+  {
+    "year": "2000 year",
+    "percent": 45.5,
+    "type": "White not Hispanic"
+  },
+  {
+    "year": "1995 year",
+    "percent": 44.7,
+    "type": "White not Hispanic"
+  },
+  {
+    "year": "1990 year",
+    "percent": 49.5,
+    "type": "White not Hispanic"
+  },
+  {
+    "year": "2015 year",
+    "percent": 28.1,
+    "type": "Hispanic"
+  },
+  {
+    "year": "2010 year",
+    "percent": 29.2,
+    "type": "Hispanic"
+  },
+  {
+    "year": "2005 year",
+    "percent": 25.4,
+    "type": "Hispanic"
+  },
+  {
+    "year": "2000 year",
+    "percent": 24.5,
+    "type": "Hispanic"
+  },
+  {
+    "year": "1995 year",
+    "percent": 23.5,
+    "type": "Hispanic"
+  },
+  {
+    "year": "1990 year",
+    "percent": 17.9,
+    "type": "Hispanic"
+  },
+  {
+    "year": "2015 year",
+    "percent": 5.2,
+    "type": "Asian"
+  },
+  {
+    "year": "2010 year",
+    "percent": 4.5,
+    "type": "Asian"
+  },
+  {
+    "year": "2005 year",
+    "percent": 4.1,
+    "type": "Asian"
+  },
+  {
+    "year": "2000 year",
+    "percent": 4,
+    "type": "Asian"
+  },
+  {
+    "year": "1995 year",
+    "percent": 3.9,
+    "type": "Asian"
+  },
+  {
+    "year": "1990 year",
+    "percent": 2.6,
+    "type": "Asian"
+  }
+]
