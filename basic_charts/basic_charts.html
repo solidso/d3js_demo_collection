@@ -24,15 +24,19 @@
               .attr("height", height + margin)
             .append('g') //group the svg and the every elements in it into a single element
                 .attr('class','chart');
-
+             
+             debugger;
       /*
         Dimple.js Chart construction code
       */
-
+          //draw my chart
           var myChart = new dimple.chart(svg, data);
           var x = myChart.addTimeAxis("x", "year"); 
           myChart.addMeasureAxis("y", "attendance");
-          myChart.addSeries(null, dimple.plot.bar);
+          x.dateParseFormat = "%Y" //parse  the date with year, 4 digit year
+          x.tickFormat = "%Y" //only show the year ,no date
+          x.timeInterval =4 //year interval
+          myChart.addSeries('stage', dimple.plot.bar); //here to identify to use the bar chart or the line, if line, use "dimple.plot.line"
           myChart.draw();
         };
       </script>
